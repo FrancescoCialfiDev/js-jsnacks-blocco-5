@@ -43,6 +43,9 @@ let classe = [];
 const newArray = [...students].forEach((element) => (element.name === "Marco Lanci") ? classe.push(element.class) : null)
 console.log(classe);
 
+// PS
+// [...students] crea un nuovo array e riporta tutti gli elementi contenuti nel primo.
+// classe.push(...array) aggiunge / concatena gli elementi del primo array con il secondo.
 
 
 
