@@ -22,16 +22,24 @@ const students = [
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
 
+//Primo esempio
 let student = [];
 const studente = students.find((element) => {
   if (element.name === "Marco Lanci") {
-    // student.push(element.class); 
+    student.push(element.class);
     return true;
   }
 })
 console.log(student)
 
+
+// Secondo esempio
 const classe = [students.find((element) => (element.name === "Marco Lanci")).class];
 console.log(classe);
+
+
+
+
+
 
 
